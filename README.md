@@ -3,7 +3,7 @@ Implementation of a Poker game simulator using bit encoding
 
 
 -------------------------------------------------------------------------
-LOGIC:
+LOGIC:   
 -------------------------------------------------------------------------
 
 This program is a poker game,but the cards have a fixed value.
@@ -183,5 +183,3 @@ Hand 5:	Ace of Spades is Black
 Number of pairs: 0
 
 Winner is hand 3 with a pair of Fours
-
-
