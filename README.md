@@ -181,5 +181,5 @@ Hand 5:	Ace of Spades is Black
 	Jack of Hearts is Red
 	Queen of Hearts is Red
 Number of pairs: 0
-
+  
 Winner is hand 3 with a pair of Fours
