@@ -4,7 +4,7 @@ Implementation of a Poker game simulator using bit encoding
 
 -------------------------------------------------------------------------
 LOGIC:   
--------------------------------------------------------------------------
+------------------------------------------------------------------------- 
 
 This program is a poker game,but the cards have a fixed value.
 
