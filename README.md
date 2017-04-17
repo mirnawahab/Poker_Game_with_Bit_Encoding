@@ -1,20 +1,19 @@
 # Poker_Game_with_Bit_Encoding
 Implementation of a Poker game simulator using bit encoding <br/><br/>
 
- <br />
-##LOGIC: <br />
+##LOGIC: <br /><br/>
 This program is a poker game,but the cards have a fixed value.
 The logic behind the program is that we first fill a deck of 52 with cards that are encoded by using BITWISE operations and masking to give them a value. Bits 0 & 1 encode the suit, bit 2 encodes the colour and bits 3, 4, 5, & 6 encode the value. The deck is then shuffled to become a random sequence of cards. After shuffling the deck we deal the hands, giving 5 cards to a total of 5 hands (5x5). The hands are then sorted for ease of finding pairs, after that the sorted hands are then searched for pairs. All hands, pairs and their values found are then printed. <br/>
 To finish the game we then determine the winner by finding the highest number of pairs between all hands or drawing the game if all hands have no pairs or two hands have the highest pair equally. The winner is then printed and the game ends.
 <br/>
 
  <br />
-##TEST PLAN: <br />
+##TEST PLAN: <br /><br/>
 
 Below is my test plan using the MAC terminal, how I compiled my program is included as well as the output. <br />
 Test plan was successful, program ends/exits automatically when game is over. <br />
 
-** test output of a game with a winner: <br /> <br />
+** test output of a game with a winner:
 
 Mirnas-MacBook-Pro:Case Study A MirnaWahab$ gcc CSA.c -o CSA <br/>
 Mirnas-MacBook-Pro:Case Study A MirnaWahab$ ./CSA <br/>
